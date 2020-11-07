@@ -1,0 +1,43 @@
+/* pipicom */
+.wrapper {margin-bottom: 3rem;}
+
+@media (min-width: 1025px) {
+    #online-yoga-classes {padding-top: 80px !important;}
+    
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2em;
+    }
+
+    .wrapper-content {
+        border: 1px solid lightgray;
+        padding: 1rem;        
+    }
+}
+
+@media (max-width: 1024px) {
+    #online-yoga-classes .section-title {display: none;}
+
+    .wrapper {
+        display: block;
+    } 
+    .wrapper-content {
+        margin-bottom: 2rem;
+        border-bottom: 1px solid lightgray;
+        padding-bottom: 2rem;        
+    }
+    .wrapper-content h2 {text-align: center;}
+}
+
+@media (max-width: 767px) {
+    .vc_section {padding-top: 40px !important;}
+}
+
+.wrapper-content {
+    border-radius: .5rem;
+} 
+ 
+.bklyn-call-to-action-button-holder {
+    display: block !important; text-align: center;
+} 
