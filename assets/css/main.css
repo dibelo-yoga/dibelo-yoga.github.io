@@ -3647,7 +3647,7 @@ input, select, textarea {
 						}
 
 							#wrapper > section.intro > header ul.actions {
-								display: none;
+								/* display: none; */
 							}
 
 							#wrapper > section.intro > header > * {
