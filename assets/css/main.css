@@ -3885,7 +3885,8 @@ input, select, textarea {
 
 	/* pipicom */
 	body {
-		text-wrap: balance
+		text-wrap: balance;
+		scroll-behavior: smooth;
 	}
 	.ytplayer {
 		width: 100%;
