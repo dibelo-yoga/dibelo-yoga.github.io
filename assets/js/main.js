@@ -208,12 +208,8 @@
 
 
 	// sticky button	
-	var bookButton = `
-					<a href="#contact" class="button button_sticky"
-						style="display: none; z-index: 11111; background-color: #6F2DBD; color: #fff !important; position: sticky; top: 1rem; left: 1rem;">
-						<span class="icon solid fa-phone"></span>
-						Book now
-					</a>`;
+	var bookButton = $('.button_sticky');
+
 
 	// Insert the button after the body tag
 	$('body').prepend(bookButton);
@@ -224,9 +220,9 @@
 		var viewportHeight = $(window).height();
 
 		if (scrollTop > viewportHeight) {
-			$('.button_sticky').fadeIn();
+			bookButton.fadeIn();
 		} else {
-			$('.button_sticky').fadeOut();
+			bookButton.fadeOut();
 		}
 	});
 
